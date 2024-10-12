@@ -87,6 +87,7 @@ void priorityScheduling(Process proc[], int n)
 // Driver code
 int main()
 {
+    cout << "PRIORITY SCHEDULING\n";
     Process proc[] = {{1, 6, 1}, {2, 11, 2}, {3, 3, 0}};
     int n = sizeof proc / sizeof proc[0];
     priorityScheduling(proc, n);

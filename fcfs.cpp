@@ -58,6 +58,7 @@ void findAverageTime(int processes[], int n, int bt[])
 // main function
 int main()
 {
+    cout << "FIRST COME FIRST SERVE\n";
     // process ids
     int processes[] = {1, 2, 3, 4};
     int n = sizeof processes / sizeof processes[0];

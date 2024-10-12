@@ -76,6 +76,7 @@ void findAverageTime(Process proc[], int n)
 // main function
 int main()
 {
+    cout << "SHORTEST JOB FIRST\n";
     Process proc[] = {{1, 7}, {2, 12}, {3, 4}, {4, 9}};
     int n = sizeof proc / sizeof proc[0];
 
