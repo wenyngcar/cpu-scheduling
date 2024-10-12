@@ -70,13 +70,13 @@ void findAverageTime(Process proc[], int n)
     cout << "Average waiting time = "
          << (float)total_wt / (float)n;
     cout << "\nAverage turn around time = "
-         << (float)total_tat / (float)n;
+         << (float)total_tat / (float)n << "\n";
 }
 
 // main function
 int main()
 {
-    Process proc[] = {{1, 21}, {2, 3}, {3, 6}, {4, 2}};
+    Process proc[] = {{1, 7}, {2, 12}, {3, 4}, {4, 9}};
     int n = sizeof proc / sizeof proc[0];
 
     // sorting processes by burst time.

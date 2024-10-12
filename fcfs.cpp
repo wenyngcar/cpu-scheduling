@@ -52,18 +52,18 @@ void findAverageTime(int processes[], int n, int bt[])
     }
 
     cout << "Average waiting time = " << (float)total_wt / (float)n;
-    cout << "\nAverage turn around time = " << (float)total_tat / (float)n;
+    cout << "\nAverage turn around time = " << (float)total_tat / (float)n << "\n";
 }
 
 // main function
 int main()
 {
     // process ids
-    int processes[] = {'A', 'B', 'C', 'D', 'E'};
+    int processes[] = {1, 2, 3, 4};
     int n = sizeof processes / sizeof processes[0];
 
     // burst time of all processes
-    int burst_time[] = {10, 3, 15, 5, 8};
+    int burst_time[] = {7, 12, 4, 9};
 
     findAverageTime(processes, n, burst_time);
 

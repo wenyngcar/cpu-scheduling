@@ -97,7 +97,7 @@ void findavgTime(int processes[], int n, int bt[],
     cout << "Average waiting time = "
          << (float)total_wt / (float)n;
     cout << "\nAverage turn around time = "
-         << (float)total_tat / (float)n;
+         << (float)total_tat / (float)n << "\n";
 }
 
 // Given below is the Driver Code
@@ -108,7 +108,7 @@ int main()
     int x = sizeof processes / sizeof processes[0];
 
     // Burst time of all processes
-    int burst_time[] = {21, 13, 6, 12};
+    int burst_time[] = {7, 12, 4, 9};
 
     // Time quantum
     int quantum = 2;

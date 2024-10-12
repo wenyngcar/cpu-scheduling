@@ -66,10 +66,10 @@ void findavgTime(Process proc[], int n)
              << "\t\t  " << tat[i] << endl;
     }
 
-    cout << "\nAverage waiting time = "
+    cout << "Average waiting time = "
          << (float)total_wt / (float)n;
     cout << "\nAverage turn around time = "
-         << (float)total_tat / (float)n;
+         << (float)total_tat / (float)n << "\n";
 }
 
 void priorityScheduling(Process proc[], int n)
